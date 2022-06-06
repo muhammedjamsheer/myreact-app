@@ -52,7 +52,7 @@ function Dashbord() {
     }
 
     return (
-        <div class="innerpage">
+        <div className="innerpage">
             <div className="row">
                 <div className="col-lg-6 col-xl-3">
                     <div className="card">

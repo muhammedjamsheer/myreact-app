@@ -23,7 +23,7 @@ function Sidebar() {
                             </Link>
                         </li>
                         <li className="side-nav-item">
-                            <Link to="/userlist" className="side-nav-link">
+                            <Link to="/users" className="side-nav-link">
                                 <i className="uil-calender"></i>
                                 <span> Users </span>
                             </Link>

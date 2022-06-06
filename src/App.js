@@ -8,6 +8,7 @@ import Sidebar from './components/Sidebar';
 import Notefound from './components/Notefound';
 import Dashbord from './pages/dashbord/Dashbord';
 import Usergrid from './pages/users/Usergrid';
+import Userform from './pages/users/Userform';
 
 function App() {
   return (
@@ -15,12 +16,12 @@ function App() {
       <BrowserRouter>
         <ToastContainer />
         <div className="main-container">
-          <div class="wrapper">
+          <div className="wrapper">
             <Sidebar />
 
 
-            <div class="content-page">
-              <div class="content">
+            <div className="content-page">
+              <div className="content">
 
                 <Navbar />
 
@@ -29,7 +30,13 @@ function App() {
                 <Routes>
                   <Route path="/" >
                     <Route index element={<Dashbord />} />
-                    <Route path='userlist' element={<Usergrid />} />
+
+                    <Route path="users" element={<Usergrid />} />
+
+                    <Route path="userscreate" element={<Userform />} />
+
+                    <Route path="/usersedit" element={<Userform />} />
+
                     <Route path='*' element={<Notefound />} />
                   </Route>
                 </Routes>

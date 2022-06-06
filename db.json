@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "jamsheer",
+      "email": "jamsheer@gmail.com",
+      "age": "30",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "thafseer",
+      "email": "thafseer@gmail.com",
+      "age": "25",
+      "role": "manager"
+    },
+    {
+      "id": 3,
+      "name": "najir",
+      "email": "jamsheer@gmail.com",
+      "age": "30",
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "name": "nasik",
+      "email": "thafseer@gmail.com",
+      "age": "25",
+      "role": "manager"
+    },
+    {
+      "id": 5,
+      "name": "ansil",
+      "email": "ansil@gmail.com",
+      "age": "25",
+      "role": "manager"
+    }
+  ]
+}
